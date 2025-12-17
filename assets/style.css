@@ -9,11 +9,11 @@ body {
 
 
 .carousel-item img {
-  width: 100%;
-  height: auto; /* plutôt que 100% */
-  object-fit: cover; /* facultatif, utile seulement si tu veux recadrer */
+  width: 100%;       /* occupe toute la largeur du conteneur */
+  height: auto;      /* garde les proportions natives pour un rendu rapide */
+  display: block;    /* supprime l'espace blanc sous l'image */
+  object-fit: cover; /* recadrage si nécessaire, mais ne bloque pas le LCP */
 }
-
 
 
 
