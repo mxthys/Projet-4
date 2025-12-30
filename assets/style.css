@@ -7,6 +7,16 @@ body {
 	font-style: normal;
 }
 
+
+.carousel-item img {
+    width: 100%;       /* s’adapte à la largeur du conteneur */
+    height: auto;      /* garde le ratio */
+    object-fit: contain; /* pas de recadrage */
+}
+
+
+
+
 .top-header {
 	background-color: white;
 	position: sticky;
